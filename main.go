@@ -9,7 +9,7 @@ func main() {
 	e = 0
 	fmt.Scanln(&limite)
 
-	for n := 0; n < limite; n++ {
+	for n := 0; n < limite+1; n++ {
 		nFactorial = n
 		if n > 1 {
 			for i := n; i > 1; i-- {
